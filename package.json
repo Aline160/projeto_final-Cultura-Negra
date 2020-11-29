@@ -1,0 +1,32 @@
+{
+  "name": "projeto_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aline160/projeto_final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aline160/projeto_final/issues"
+  },
+  "homepage": "https://github.com/Aline160/projeto_final#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv-safe": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.18",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
