@@ -50,12 +50,20 @@ const login = (req,res) => {
 
     const senhaValida = bcrypt.compareSync(req.body.senha, Modas.senha);
 
-    if (!senhaValida) {
-      const token = jwt.sign({ email: req.body.email }, SECRET);
+    if (senhaValida) {
+      consolelog(senhaValida)
+      const token = jwt.sign({senha: req.body.senha }, SECRET);
       return res.status(200).send(token);
     } else
     return res.status(403).send('Senha invalida');
   });
+};
+
+const getByType = (req, res) => {
+  const Tipo = req.params.Tipo;
+    moda.find({Tipo},'nome email telefone site redeSocial Publico Resumo',function(err,moda){
+        res.status(200).send(moda);
+    })
 };
 
 const postModa = (req,res)=>{
@@ -99,5 +107,6 @@ module.exports = {
     login,
     postModa,
     deleteModa,
-    putModa
+    putModa,
+    getByType
 };
