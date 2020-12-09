@@ -12,8 +12,9 @@ const create = (req,res)=>{
   Modas.save(function(err) {
     if(err){
       res.status(500).send ({message: err.message})
+    }else{
+    return res.status(201).send(Modas)
     }
-    res.status(201).send(Modas)
   })
 };
 
@@ -61,8 +62,11 @@ const login = (req,res) => {
 
 const getByType = (req, res) => {
   const Tipo = req.params.Tipo;
-    moda.find({Tipo},'nome email telefone site redeSocial Publico Resumo',function(err,moda){
-        res.status(200).send(moda);
+    moda.find({Tipo},'id nome email foto telefone site redeSocial Publico Resumo',function(err,moda){
+      if(err){
+        res.status(500).send('Não temos o registro desse pofissional')
+      }else
+        return res.status(200).send(moda);
     })
 };
 
