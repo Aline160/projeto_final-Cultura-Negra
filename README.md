@@ -10,8 +10,25 @@
 
 # Introdução
 
+<p style= 'text-align: justify'> Falar de cultura negra vai muito além de falar de arte, remete-nos a questionar sobre impactos sociais, que surgem ao longo do tempo formando concepções de mundo. </p>
+
+
+>São construções de valores, posturas, hábitos, conceitos, lugares, dentre outras coisas. *Macedo (2008, p.91)*
+
+
+ <p style= 'text-align: justify'>No brasil fundamentado no mito da democracia racial, o racismo foi sistematicamente usado como instrumento de segregação, opressão e dominação inclusive através da linguagem. Através deste houve a tentativa de destruição da identidade do sujeito negro a partir de uma política de branqueamento social. Oprimindo-os para suprimir suas crenças. Atacando sua cultura, tirando sua identidade. E assim o negro teve que se adaptar a costumes, e a uma identidade que não era sua. </p>
+
+
+<p style= 'text-align: justify'>Por isso faz-se muito importante resgatar essa cultura, através desse processo de redescoberta da cultura da identidade do negro e valorizá-la.  Pôs assumir a identidade negra no Brasil ainda é um processo difícil e até mesmo doloroso, por estar sempre ligada a algo negativo, sexualizado, folclorizado ou até mesmo “demoníaco”. </p>
+
+*Filipe Maximiano* 
+
 
 ## Objetivos
+
+<p style= 'text-align: justify'> Este projeto consiste na criação de uma API gerenciadora de um banco de dados com o objetivo da valorização da cultura negra. 
+O proposito é reunir informaçoes que nos levem a reconhecer as particularidades da beleza e a historia de resistencia do nosso povo.
+Ele é composto por profissionais relacionados a beleza/estetica da população negra, locais historicos e projetos ligados ao tema. </p>
 
 ## Pré- requisitos
 
@@ -53,7 +70,7 @@ Se utilizar o heroku  o link do projeto é https://projeto-final-aline.herokuapp
 |Método|Recurso|Utilização|
 |:------:|:-------:|----------|
 | get|"/"|Visualiza o index|
-| get|"/moda"|Visualiza todos os dados do banco de dados;|
+| get|"/moda"|Visualiza todos os dados do banco de dados|
 | get|"/:Tipo"|Visualiza todos os dados que possue o tipo de profissional que você deseja|
 |post|"/"|Adicionar novos profissionais|
 |post|"/login"|Realiza login dos profissionais|
@@ -65,13 +82,25 @@ Se utilizar o heroku  o link do projeto é https://projeto-final-aline.herokuapp
 |Método|Recurso|Utilização|
 |:------:|:-------:|----------|
 | get|"/"|Visualiza o index|
-| get|"/lugares"|Visualiza todos os dados cadastrado do banco;|
+| get|"/lugares"|Visualiza todos os dados cadastrado do banco|
 | get|"/tipo/:Tipo"|Visualiza todos os dados que são cadastrado no tipo que você deseja|
 |get|"/:id"|Busca o lugar pelo ID cadastrado|
 |get|"/cidade/:cidade"|Busca o lugar pelo ID cadastrado|
 |post|"/"|Adicionar novos locais|
 |delete|"/:id"|Remove um lugar através do ID|
 |put|:id"|Atualiza um lugar atraves do ID|
+
+#### **Expressões Culturais**
+
+|Método|Recurso|Utilização|
+|:------:|:-------:|----------|
+| get|"/"|Visualiza o index|
+| get|"/expressoes_Culturais"|Visualiza todos os dados cadastrado do banco|
+| get|"/tipo/:Tipo"|Visualiza todos os dados que são cadastrado no tipo que você deseja|
+|get|"/nome/:nome_do_projeto"|Busca o lugar pelo nome do projeto cadastrado|
+|post|"/"|Adicionar novos projetos|
+|delete|"/:id"|Remove um projeto através do ID|
+|put|:id"|Atualiza um projeto atraves do ID|
 
 
 ## Contribuindo com o projeto
