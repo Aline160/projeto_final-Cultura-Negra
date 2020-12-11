@@ -64,7 +64,7 @@ const getByType = (req, res) => {
   const Tipo = req.params.Tipo;
     moda.find({Tipo},'id nome email foto telefone site redeSocial Publico Resumo',function(err,moda){
       if(err){
-        res.status(500).send('Não temos o registro desse pofissional')
+        res.status(500).send('Não temos o registro desse profissional')
       }else
         return res.status(200).send(moda);
     })

@@ -22,7 +22,7 @@ db.once("open", function (){
 
 const index = require ('./routes/index')
 const moda = require ('./routes/modaRouter');
-//const livros = require ("./routes/livrosRouter");
+const lugares = require ("./routes/lugaresRouter");
 
 
 app.use(bodyParser.json());
@@ -41,7 +41,7 @@ app.use (express.static('public'));
 
 app.use ('/',index);
 app.use ('/moda', moda)
-//app.use('/livros',livros)
+app.use('/lugares',lugares)
 
 
 
