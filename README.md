@@ -21,7 +21,6 @@
 
 <p style= 'text-align: justify'>Por isso faz-se muito importante resgatar essa cultura, através desse processo de redescoberta da cultura da identidade do negro e valorizá-la.  Pôs assumir a identidade negra no Brasil ainda é um processo difícil e até mesmo doloroso, por estar sempre ligada a algo negativo, sexualizado, folclorizado ou até mesmo “demoníaco”. </p>
 
-*Filipe Maximiano* 
 
 
 ## Objetivos
