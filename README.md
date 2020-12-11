@@ -4,7 +4,7 @@
 
 
 
-![Cultura Negra](https://cdn.pixabay.com/photo/2020/06/19/10/08/african-5316701_960_720.jpg)
+![Cultura Negra](https://images.pexels.com/photos/2170387/pexels-photo-2170387.jpeg?cs=srgb&dl=pexels-bestbe-models-2170387.jpg&fm=jpg)
 
 > Projeto final do bootcamp da @Reprograma em Parceria com o M.i.n.a.s do Porto Digital- Recife. 
 

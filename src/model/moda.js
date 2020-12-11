@@ -1,7 +1,7 @@
 const mongoose = require ('mongoose');
 
 const modaSchema = new mongoose.Schema({
-    id:{type: mongoose.Schema.Types.ObjectId, auto: true, required: true},
+    id:{type: Number, auto: true, required: true},
     nome : { type : String, required: true},
     email: { type: String, required: true },
     senha: { type: String, required: true },

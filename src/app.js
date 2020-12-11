@@ -23,6 +23,8 @@ db.once("open", function (){
 const index = require ('./routes/index')
 const moda = require ('./routes/modaRouter');
 const lugares = require ("./routes/lugaresRouter");
+const expressoes_Culturais = require ("./routes/expressoes_CulturaisRouter");
+
 
 
 app.use(bodyParser.json());
@@ -42,6 +44,7 @@ app.use (express.static('public'));
 app.use ('/',index);
 app.use ('/moda', moda)
 app.use('/lugares',lugares)
+app.use ('/expressoes_Culturais',expressoes_Culturais)
 
 
 
