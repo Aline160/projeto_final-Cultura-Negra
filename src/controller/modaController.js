@@ -5,7 +5,7 @@ const jwt= require('jsonwebtoken');
 const SECRET= process.env.SECRET;
 
 const create = (req,res)=>{
-  const senhaComHash = bcrypt.hashSync(req. body.senha,10);
+  const senhaComHash = bcrypt.hashSync(req.body.senha,10);
   req.body.senha = senhaComHash;
   const Modas = new moda(req.body);
   
