@@ -60,6 +60,19 @@ Se utilizar o heroku  o link do projeto é https://projeto-final-aline.herokuapp
 |delete|"/:id"|Remove um profissional através do ID|
 |put|:id"|Atualiza um profissional atraves do ID|
 
+#### **Lugares**
+
+|Método|Recurso|Utilização|
+|:------:|:-------:|----------|
+| get|"/"|Visualiza o index|
+| get|"/lugares"|Visualiza todos os dados cadastrado do banco;|
+| get|"/tipo/:Tipo"|Visualiza todos os dados que são cadastrado no tipo que você deseja|
+|get|"/:id"|Busca o lugar pelo ID cadastrado|
+|get|"/cidade/:cidade"|Busca o lugar pelo ID cadastrado|
+|post|"/"|Adicionar novos locais|
+|delete|"/:id"|Remove um lugar através do ID|
+|put|:id"|Atualiza um lugar atraves do ID|
+
 
 ## Contribuindo com o projeto
 1. Faça o fork do projeto
