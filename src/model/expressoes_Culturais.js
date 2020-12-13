@@ -5,8 +5,8 @@ const expressoes_CulturaisSchema = new mongoose.Schema({
     nome_do_projeto : { type : String, required: true},
     foto: {type: String},
     site: { type: String},
-    Tipo: {type: String, required: true},
-    profissionais: {type: String},
+    Tipo: [{type: String, required: true}],
+    profissionais: [{type: String}],
     Historia: {type: String, required: true},
 },{
     

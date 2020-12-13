@@ -13,10 +13,9 @@ const modaSchema = new mongoose.Schema({
     telefone: {type:Number},
     site: { type: String},
     redeSocial: {type: String},
-    Tipo: {type: String},
+    Tipo: [{type: String}],
     Publico: {type: String},
     Resumo: {type: String},
-    //Endereço: [{ pais: String}, ],
 },{
     
     versionKey: false

@@ -70,6 +70,7 @@ const getByType = (req, res) => {
     })
 };
 
+
 const postModa = (req,res)=>{
     console.log(req.body);
 
@@ -112,5 +113,5 @@ module.exports = {
     postModa,
     deleteModa,
     putModa,
-    getByType
+    getByType,
 };

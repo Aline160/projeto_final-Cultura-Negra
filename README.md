@@ -2,9 +2,9 @@
 
 # Valorização da Cultura Negra
 
-
-
-![Cultura Negra](https://images.pexels.com/photos/2170387/pexels-photo-2170387.jpeg?cs=srgb&dl=pexels-bestbe-models-2170387.jpg&fm=jpg)
+<p align="center">
+<img src="./imgs/negras.jpg" width="50%" height="50%"/>
+</p>
 
 > Projeto final do bootcamp da @Reprograma em Parceria com o M.i.n.a.s do Porto Digital- Recife. 
 
@@ -119,6 +119,11 @@ https://github.com/Aline160/projeto_final.git
 6. Faça o push `git push --set-upstream origin feature/nome-da-sua-branch`
 
 7. Crie um novo Pull Request para a branch `feature/staging`
+
+
+### Agradecimentos
+
+A todos que se fizeram que ajudaram de forma direta e indireta na conclusão do bootcamp. A todas as professora, monitoras, a minha familia e a aquele que sempre me apoiou em cada decisão e em cada escolha. 
 
 Created by *Aline Pereira* :woman_technologist:
  

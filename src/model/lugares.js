@@ -11,7 +11,7 @@ const lugaresSchema = new mongoose.Schema({
     telefone: {type:Number},
     funcionamento:{ type: String},
     site: { type: String},
-    Tipo: {type: String},
+    Tipo: [{type: String}],
     Resumo: {type: String, required: true},
 },{
     
