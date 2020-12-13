@@ -29,7 +29,7 @@
 O proposito é reunir informaçoes que nos levem a reconhecer as particularidades da beleza e a historia de resistencia do nosso povo.
 Ele é composto por profissionais relacionados a beleza/estetica da população negra, locais historicos e projetos ligados ao tema. </p>
 
-## Estrututura de Arquivos da API:
+## Estrutura de Arquivos da API:
 
 ```
 ├── src
