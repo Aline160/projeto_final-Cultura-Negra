@@ -29,6 +29,29 @@
 O proposito é reunir informaçoes que nos levem a reconhecer as particularidades da beleza e a historia de resistencia do nosso povo.
 Ele é composto por profissionais relacionados a beleza/estetica da população negra, locais historicos e projetos ligados ao tema. </p>
 
+## Estrututura de Arquivos da API:
+
+```
+├── src
+│   ├── controllers
+|   |  ├── expressoes_CulturaisController.js
+|   |  ├── lugaresController.js
+|   |  ├── modaController.js
+│   ├── models
+|   |  ├── expressoes_Culturais.js
+|   |  ├── lugares.js
+|   |  ├── moda.js
+│   ├── routes 
+│   |  ├── expressoes_CulturaisRouter.js
+|   |  ├── index.js
+│   |  ├── lugaresRoute.js
+|   |  ├── modaRoute.js
+|   ├── app.js
+├── .env.example
+├── package.json
+├── server.js
+```
+
 ## Pré- requisitos
 
 **Instalar:**
