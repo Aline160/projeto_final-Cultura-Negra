@@ -3,7 +3,7 @@
 # Valorização da Cultura Negra
 
 <p align="center">
-<img src="./imgs/negras.jpg" width="50%" height="50%"/>
+<img src="./imgs/cultura_negra.jpg" width="50%" height="50%"/>
 </p>
 
 > Projeto final do bootcamp da @Reprograma em Parceria com o M.i.n.a.s do Porto Digital- Recife. 
